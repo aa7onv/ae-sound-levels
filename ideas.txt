@@ -1,0 +1,6 @@
+use WASAPI (NAudio) to read After Effects’ audio level
+
+helper program to output “1” when AE audio is active, “0” when silent
+-> helper writes to C:\temp\ae_audio.txt
+
+AHK watches it -> AHK pauses/resumes Spotify
